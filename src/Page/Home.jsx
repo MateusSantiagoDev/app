@@ -3,37 +3,47 @@ import "./Home.css";
 /* import { HiOutlineMail } from 'react-icons/hi';*/
 import { RiWhatsappFill } from "react-icons/ri";
 import { useRef } from "react";
-import desentupimento from "../assets/images/carousel/desentupimento.png";
-import desentupimento0 from "../assets/images/carousel/desentupimento0.jpeg";
-import desalojamento1 from "../assets/images/carousel/desalojamento1.jpg";
-import caca from "../assets/images/carousel/caca.jpg";
+
+import carousel0 from "../assets/images/carousel/carousel0.png";
+import carousel1 from "../assets/images/carousel/carousel1.jpeg";
+import carousel2 from "../assets/images/carousel/carousel2.jpg";
+import carousel3 from "../assets/images/carousel/carousel3.jpg";
+import carousel4 from "../assets/images/carousel/carousel4.jpeg";
 import chevron from "../assets/images/carousel/chevron.png";
+
+import logo from "../assets/logo/logo.png";
+
 import vazamento0 from "../assets/images/vazamento0.jpg";
 import vazamento1 from "../assets/images/vazamento1.jpg";
 import vazamento2 from "../assets/images/vazamento2.jpg";
 import vazamento3 from "../assets/images/vazamento3.jpg";
+
+import limpeza0 from "../assets/images/limpeza0.jpg";
+import limpeza1 from "../assets/images/limpeza1.jpg";
+import limpeza2 from "../assets/images/limpeza2.jpg";
 import limpeza3 from "../assets/images/limpeza3.jpg";
-import limpeza6 from "../assets/images/limpeza6.jpg";
-import limpeza4 from "../assets/images/limpeza4.jpg";
-import limpeza5 from "../assets/images/limpeza5.jpg";
+
+import desentupimento0 from "../assets/images/desentupimento0.jpg";
 import desentupimento1 from "../assets/images/desentupimento1.jpg";
-import desentupimento2 from "../assets/images/desentupimento2.jpg";
-import desentupimento3 from "../assets/images/desentupimento3.webp";
-import desentupimento4 from "../assets/images/desentupimento4.jpg";
+import desentupimento2 from "../assets/images/desentupimento2.webp";
+import desentupimento3 from "../assets/images/desentupimento3.jpg";
+
+import pombos0 from "../assets/images/pombos0.jpg";
 import pombos1 from "../assets/images/pombos1.jpg";
 import pombos2 from "../assets/images/pombos2.jpg";
 import pombos3 from "../assets/images/pombos3.jpg";
-import pombos4 from "../assets/images/pombos4.jpg";
-/* import logo_boleto from "../assets/images/logo_boleto.png";
-import logo_master from "../assets/images/logo_master.png";
-import logo_visa from "../assets/images/logo_visa.png"; */
-import logo_pix from "../assets/images/logo_pix.png";
-import master1 from "../assets/images/master1.png";
-import visa3 from "../assets/images/visa3.png";
-import boleto1 from "../assets/images/boleto1.png";
-import logo from "../assets/logo/logo.png";
-import localizacao1 from "../assets/images/localizacao1.png";
+
+import atendimento from "../assets/images/atendimento.png";
 import campeao from "../assets/images/campeao.png";
+
+import pix from "../assets/images/pix.png";
+import master from "../assets/images/master.png";
+import visa from "../assets/images/visa.png";
+import boleto from "../assets/images/boleto.png";
+import american from "../assets/images/american.jpg";
+import diners from "../assets/images/diners.png";
+import elo from "../assets/images/elo.png";
+import hipercard from "../assets/images/hipercard.png";
 
 export function Home() {
   const carousel = useRef();
@@ -61,10 +71,11 @@ export function Home() {
             />
 
             <div className="carousel" ref={carousel}>
-              <img src={caca} alt="img-carousel" />
-              <img src={desalojamento1} alt="img-carousel" />
-              <img src={desentupimento0} alt="img-carousel" />
-              <img src={desentupimento} alt="img-carousel" />
+              <img src={carousel3} alt="img-carousel" />
+              <img src={carousel4} alt="img-carousel" />
+              <img src={carousel2} alt="img-carousel" />
+              <img src={carousel1} alt="img-carousel" />
+              <img src={carousel0} alt="img-carousel" />
             </div>
 
             <img
@@ -79,7 +90,7 @@ export function Home() {
         <div className="div_orcamento">
           <h1>Orçamento Gratuito</h1>
           <button className="button_orcamento">
-            <a href="/" target="_blanc">
+            <a href="https://wa.me/5511948914939" target="_blanc">
               <RiWhatsappFill size={35} className="whatssap" />
             </a>
           </button>
@@ -90,29 +101,28 @@ export function Home() {
         </div>
       </div>
       <div className="home">
-        <h1>Nossos Serviços</h1>
         <div className="div_h2-serviço">
           <h2>Caça Vazamento</h2>
         </div>
         <div className="div_servicos1">
           <div className="div_servico1-img">
             <img src={vazamento0} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
+            <span>Caça Vazamentos em Sistemas de Água</span>
           </div>
 
           <div className="div_servico1-img">
             <img src={vazamento1} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
+            <span>Caça Vazamentos em Sistemas de Drenagem</span>
           </div>
 
           <div className="div_servico1-img">
             <img src={vazamento2} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
+            <span>Caça Vazamentos em Sistemas de Esgoto</span>
           </div>
 
           <div className="div_servico1-img">
             <img src={vazamento3} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
+            <span>Caça Vazamentos em Piscinas</span>
           </div>
         </div>
 
@@ -122,23 +132,23 @@ export function Home() {
 
         <div className="div_servicos1">
           <div className="div_servico1-img">
+            <img src={limpeza0} alt="img" classname="img_servico" />
+            <span>Limpeza de Caixa d'água</span>
+          </div>
+
+          <div className="div_servico1-img">
+            <img src={limpeza1} alt="img" classname="img_servico" />
+            <span>Impermeabilização de Caixa d'água</span>
+          </div>
+
+          <div className="div_servico1-img">
+            <img src={limpeza2} alt="img" classname="img_servico" />
+            <span>Higienização de Caixa d'água</span>
+          </div>
+
+          <div className="div_servico1-img">
             <img src={limpeza3} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
-          </div>
-
-          <div className="div_servico1-img">
-            <img src={limpeza6} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
-          </div>
-
-          <div className="div_servico1-img">
-            <img src={limpeza4} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
-          </div>
-
-          <div className="div_servico1-img">
-            <img src={limpeza5} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
+            <span>Higienização de Reservatório</span>
           </div>
         </div>
 
@@ -148,23 +158,23 @@ export function Home() {
 
         <div className="div_servicos1">
           <div className="div_servico1-img">
+            <img src={desentupimento0} alt="img" classname="img_servico" />
+            <span>Desentupimento de Vaso Sanitário</span>
+          </div>
+
+          <div className="div_servico1-img">
             <img src={desentupimento1} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
+            <span>Desentupimento de Ralos</span>
           </div>
 
           <div className="div_servico1-img">
             <img src={desentupimento2} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
+            <span>Desentupimento de Canos</span>
           </div>
 
           <div className="div_servico1-img">
             <img src={desentupimento3} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
-          </div>
-
-          <div className="div_servico1-img">
-            <img src={desentupimento4} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
+            <span>Desentupimento de Pias</span>
           </div>
         </div>
 
@@ -174,43 +184,58 @@ export function Home() {
 
         <div className="div_servicos1">
           <div className="div_servico1-img">
+            <img src={pombos0} alt="img" classname="img_servico" />
+            <span>Fio Tensionado</span>
+          </div>
+
+          <div className="div_servico1-img">
             <img src={pombos1} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
+            <span>Vedantes para Impedir Acesso</span>
           </div>
 
           <div className="div_servico1-img">
             <img src={pombos2} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
+            <span>Telas Bloqueadoras</span>
           </div>
 
           <div className="div_servico1-img">
             <img src={pombos3} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
-          </div>
-
-          <div className="div_servico1-img">
-            <img src={pombos4} alt="img" classname="img_servico" />
-            <span>desentupimento</span>
+            <span>Espícula Plástica ou Metálica</span>
           </div>
         </div>
       </div>
 
       <div className="div_pagamento">
-        <h3>Aceitamos todas as formas de pagamento</h3>
+        <h3>Formas de Pagamento</h3>
         <div className="div_pagamento-img">
-          <img src={master1} alt="img_pagamento" />
-          <img src={visa3} alt="img_pagamento" />
-          <img src={boleto1} alt="img_pagamento" />
-          <img src={logo_pix} alt="img_pagamento" />
+          <img src={american} alt="img_pagamento" />
+          <img src={diners} alt="img_pagamento" />
+          <img src={elo} alt="img_pagamento" />
+          <img src={hipercard} alt="img_pagamento" />
+          <img src={master} alt="img_pagamento" />
+          <img src={visa} alt="img_pagamento" />
+          <img src={boleto} alt="img_pagamento" />
+          <img src={pix} alt="img_pagamento" />
         </div>
       </div>
 
       <div className="footer">
-        <img src={campeao} alt="img_tradição" />
-        <h3>23 anos de atuação no mercado</h3>
-        <img src={localizacao1} alt="img_localização" />
-        <h3>atendemos em toda grande São Paulo e interior</h3>
-        <a className="fale_conosco" href="/" target="_blanc"><RiWhatsappFill /> Solicitar Orçamento</a>
+        <h3>
+          <img src={campeao} alt="img_tradição" /> 23 anos de atuação no mercado
+        </h3>
+
+        <h3>
+          <img src={atendimento} alt="img_localização" /> atendemos em toda
+          grande São Paulo e interior
+        </h3>
+
+        <a
+          className="fale_conosco"
+          href="https://wa.me/5511948914939"
+          target="_blanc"
+        >
+          <RiWhatsappFill /> Solicitar Orçamento
+        </a>
       </div>
     </div>
   );
