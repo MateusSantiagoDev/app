@@ -16,7 +16,7 @@
 }
 
 .chevron {
-  top: 40%;
+  top: 60%;
   height: 46px;
   width: 46px;
   text-align: center;
@@ -26,6 +26,42 @@
   cursor: pointer;
   font-size: 1.2rem;
   position: absolute;
+}
+
+@media (max-width: 1120px) {
+  .chevron {
+       top: 40%;
+  }
+}
+
+@media (max-width: 850px) {
+  .chevron {
+       top: 30%;
+  }
+}
+
+@media (max-width: 680px) {
+  .chevron {
+       top: 20%;
+  }
+}
+
+@media (max-width: 500px) {
+  .chevron {
+       top: 17%;
+  }
+}
+
+@media (max-width: 500px) {
+  .chevron {
+       top: 15%;
+  }
+}
+
+@media (max-width: 500px) {
+  .chevron {
+       top: 10%;
+  }
 }
 
 .chevron-left {
@@ -48,7 +84,7 @@
 }
 
 .carousel img {
-  height: 80vh;
+  height: auto;
   object-fit: cover;
   width: calc(100%);
 }

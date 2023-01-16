@@ -1,14 +1,10 @@
 import "./Home.css";
-/* import logo from "../assets/logo/logo.png"; */
-/* import { HiOutlineMail } from 'react-icons/hi';*/
 import { RiWhatsappFill } from "react-icons/ri";
 import { useRef } from "react";
 
-import carousel0 from "../assets/images/carousel/carousel0.png";
-import carousel1 from "../assets/images/carousel/carousel1.jpeg";
-import carousel2 from "../assets/images/carousel/carousel2.jpg";
-import carousel3 from "../assets/images/carousel/carousel3.jpg";
-import carousel4 from "../assets/images/carousel/carousel4.jpeg";
+import banner0 from "../assets/images/carousel/banner0.png";
+import banner1 from "../assets/images/carousel/banner1.png";
+import banner2 from "../assets/images/carousel/banner2.png";
 import chevron from "../assets/images/carousel/chevron.png";
 
 import logo from "../assets/logo/logo.png";
@@ -71,11 +67,9 @@ export function Home() {
             />
 
             <div className="carousel" ref={carousel}>
-              <img src={carousel3} alt="img-carousel" />
-              <img src={carousel4} alt="img-carousel" />
-              <img src={carousel2} alt="img-carousel" />
-              <img src={carousel1} alt="img-carousel" />
-              <img src={carousel0} alt="img-carousel" />
+              <img src={banner0} alt="img-carousel" />
+              <img src={banner1} alt="img-carousel" />
+              <img src={banner2} alt="img-carousel" />             
             </div>
 
             <img
